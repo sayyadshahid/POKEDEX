@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/cards.css" />
+    <title>Cards.com</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="nav">
+        <div class="icon">
+          <h1><a href="index.html">POKEDEX</a></h1>
+        </div>
+        <form>
+          <i class="fas fa-search"></i>
+          <input
+            type="search"
+            id="searchInput"
+            name="search"
+            placeholder="search"
+          />
+        </form>
+        <div class="list">
+          <h4><a href="/index.html">HOME</a></h4>
+          <h4><a href="contact.html">CONTACT</a></h4>
+           
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="card1">
+        <div class="c1 card-item" data-name="pikachu">
+          <a href="pikachu.html"
+            ><img src="/imgs/pikachu.png" alt="Pikachu"
+          /></a>
+          <h5>Pikachu</h5>
+        </div>
+        <div class="c1 card-item" data-name="charmander">
+          <a href="charmender.html"
+            ><img src="imgs/charmander.png" alt="Charmander"
+          /></a>
+          <h5>Charmander</h5>
+        </div>
+        <div class="c1 card-item" data-name="squirtler">
+          <a href="squirtler.html"
+            ><img src="imgs/sqirtler.png" alt="Squirtle"
+          /></a>
+          <h5>Squirtler</h5>
+        </div>
+        <div class="c1 card-item" data-name="bulbasaur">
+          <a href="ballbasaur.html"
+            ><img src="imgs/bullbasur.png" alt="Bulbasaur"
+          /></a>
+          <h5>Bulbasaur</h5>
+        </div>
+      </div>
+      <div class="card2">
+        <div class="c2 card-item" data-name="dito">
+          <a href="dito.html"><img src="imgs/dito.png" alt="Dito" /></a>
+          <h5>Dito</h5>
+        </div>
+        <div class="c2 card-item" data-name="gastly">
+          <a href="gastly.html"><img src="imgs/gastly.png" alt="Gastly" /></a>
+          <h5>Gastly</h5>
+        </div>
+        <div class="c2 card-item" data-name="mew">
+          <a href="mew.html"><img src="imgs/mew.png" alt="Mew" /></a>
+          <h5>Mew</h5>
+        </div>
+      </div>
+      <div class="card3">
+        <div class="c3 card-item" data-name="aron">
+          <a href="aron.html"><img src="imgs/aron.png" alt="Aron" /></a>
+          <h5>Aron</h5>
+        </div>
+        <div class="c3 card-item" data-name="butterfree">
+          <a href="butterfree.html"
+            ><img src="imgs/butterfree.png" alt="Butterfree"
+          /></a>
+          <h5>Butterfree</h5>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="noResults"
+      style="display: none; color: red; text-align: center; font-size: 1.2em"
+    >
+      No results found
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
