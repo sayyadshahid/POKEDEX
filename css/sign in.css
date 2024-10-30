@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  background-color: var(--bgc);
+}
+
+:root {
+  --color: #05f2f2;
+  --bgc: rgba(10, 19, 29, 255);
+}
+
+header button {
+  background-color: #690606;
+  padding: 1vh 1vw;
+  font-weight: 600;
+  font-size: 0.9vw;
+  border: none;
+  color: white;
+  margin-left: 37vw;
+  margin-top: 2.7vh;
+  position: absolute;
+  z-index: 999;
+}
+
+button:hover {
+  transform: scaleX(1.1) rotate(10deg);
+  transition: 2s ease;
+}
+
+.container {
+  border: 1px solid gray;
+  width: 25%;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+
+.container:hover {
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+
+.sub-cont {
+  margin-left: 4vw;
+  padding: 1vw;
+}
+
+.container h1 {
+  color: var(--color);
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+  font-size: 1.7vw;
+}
+
+form {
+  border-bottom: 1px solid aqua;
+  width: 80%;
+  margin-bottom: 2.5vw;
+}
+
+input {
+  border: none;
+  outline: none;
+  width: 100%;
+  color: rgb(166, 223, 233);
+  font-size: 1.1vw;
+  padding-bottom: 1vh;
+}
+
+.container p {
+  color: gray;
+  font-size: 0.8vw;
+  font-weight: 600;
+  margin-left: 0.5vw;
+  margin-bottom: 6vh;
+}
+
+.container p a {
+  color: var(--color);
+  padding: 0 0.4vw 0 0.4vw;
+}
+#password {
+  margin-bottom: 2vh;
+}
+
+.btn button {
+  border: none;
+  background-color: var(--color);
+  color: white;
+  padding: 1vh 1vw;
+  font-weight: 600;
+  font-size: 0.8vw;
+}
+
+.btn {
+  padding-bottom: 8vh;
+}
+
+@media (max-width: 950px) {
+  header button {
+    font-size: 1.5vw;
+    margin-left: 20%;
+    margin-top: 2.2vh;
+    padding: 1vh 1.8vw;
+  }
+
+  .container {
+    width: 46%;
+    margin-left: 30%;
+    margin-top: 20%;
+  }
+  .container h1{
+    font-size: 2.9vw;
+  }
+
+  input{
+    font-size: 1.6vw;
+    padding-bottom: 1.5vh;
+  }
+
+  .container p{
+    font-size: 1.5vw;
+  }
+
+  #password {
+    margin-bottom: 2.6vh;
+  }
+
+  .btn button{
+    padding: 1vh 1vw;
+    font-size: 1.8vw;
+  }
+}
+
+
+
+@media (max-width: 950px) {
+  header button {
+    font-size: 1.5vw;
+    margin-left: 24vw;
+    margin-top: 2.2vh;
+    padding: 1vh 1.8vw;
+  }
+
+  .container {
+    width: 46%;
+    margin-left: 30%;
+    margin-top: 20%;
+  }
+  .container h1{
+    font-size: 2.9vw;
+  }
+
+  input{
+    font-size: 1.6vw;
+    padding-bottom: 1.5vh;
+  }
+
+  .container p{
+    font-size: 1.5vw;
+  }
+
+  #password {
+    margin-bottom: 2.6vh;
+  }
+
+  .btn button{
+    padding: 1vh 1vw;
+    font-size: 1.8vw;
+  }
+}
+
+@media (max-width: 600px) {
+    header button {
+      font-size: 1.9vw;
+      margin-left: 12vw;
+      margin-top: 3vw;
+      padding: 1vh 2.8vw;
+    }
+  
+    .container {
+      width: 60%;
+      margin-left: 20%;
+      margin-top: 40%;
+    }
+    .container h1{
+      font-size: 2.9vw;
+    }
+  
+    input{
+      font-size: 1.6vw;
+      padding-bottom: 1.5vh;
+    }
+  
+    .container p{
+      font-size: 1.5vw;
+    }
+  
+    #password {
+      margin-bottom: 2.6vh;
+    }
+  
+    .btn button{
+      padding: 1vh 1vw;
+      font-size: 1.8vw;
+    }
+  }
+  
+  
+  
+   
